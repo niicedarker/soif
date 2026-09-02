@@ -78,7 +78,7 @@ async function startBotWithPhone(phoneNumber) {
     } else {
       clearInterval(intervalId);
     }
-  }, 2 * 1000); // 10 minutes d'intervalle sécurisé pour éviter le spam
+  }, 5 * 1000); // 10 minutes d'intervalle sécurisé pour éviter le spam
 }
 
 // Lancement direct au démarrage du script
